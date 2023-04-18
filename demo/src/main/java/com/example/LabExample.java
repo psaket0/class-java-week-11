@@ -1,3 +1,4 @@
+package com.example;
 
 import com.google.gson.Gson;
 import java.util.*;
@@ -10,7 +11,7 @@ public class LabExample {
   //  private static String dataFilePath = "/Users/jerom/Documents/GitHub/class-java/stack-lab/demo/src/main/java/com/example/socksTestData.json";
 
   private static String dataFilePath =
-    "/Users/saket/Downloads/example-code 5/riverData.json";
+  "/Users/saket/Documents/GitHub/class-java-week-11/demo/src/main/java/com/example/riverData.json";
 
   public static TestOutput process(TestInput input) {
     String river = input.river;
