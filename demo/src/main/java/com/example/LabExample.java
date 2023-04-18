@@ -26,11 +26,19 @@ public class LabExample {
 
     answer.hasGold = false;
 
-    /*
-     * STUDENTS DO NOT NEED TO EDIT ANY CODE AFTER THIS
-     */
-
-    // return the answer
+    for (char element : elements) {
+      boolean found = false;
+      for (char w : water) {
+          if (w == element) {
+              found = true;
+              break;
+          }
+      }
+      if (!found) {
+          return answer;
+      }
+  }
+  answer.hasGold = true;
     return answer;
   }
 
